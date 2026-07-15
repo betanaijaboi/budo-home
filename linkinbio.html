@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Budo Home — Links</title>
+<style>
+  :root{
+    --paper:#F7F3EC;
+    --ink:#26261F;
+    --sage:#5C6E52;
+    --sage-deep:#3D4A37;
+    --brass:#B8874A;
+    --line:#D9D2C2;
+    --card:#FFFFFF;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Iowan Old Style','Georgia',serif;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    padding:56px 20px;
+  }
+  .wrap{max-width:420px; width:100%;}
+
+  .profile{
+    text-align:center;
+    margin-bottom:36px;
+  }
+  .avatar{
+    width:76px; height:76px;
+    border-radius:50%;
+    background:var(--sage-deep);
+    color:var(--paper);
+    display:flex; align-items:center; justify-content:center;
+    font-size:28px;
+    margin:0 auto 16px;
+    border:3px solid var(--brass);
+  }
+  .profile .eyebrow{
+    font-family:'Courier New',monospace;
+    font-size:11px;
+    letter-spacing:0.14em;
+    text-transform:uppercase;
+    color:var(--sage-deep);
+    margin-bottom:6px;
+  }
+  .profile h1{
+    font-size:24px;
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  .profile p{
+    font-size:14.5px;
+    color:#4A4A3E;
+    max-width:34ch;
+    margin:0 auto;
+  }
+
+  .links{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+  }
+  a.linkbtn{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    background:var(--card);
+    border:1px solid var(--line);
+    padding:16px 18px;
+    text-decoration:none;
+    color:var(--ink);
+    font-size:15.5px;
+    font-weight:600;
+    transition:transform .12s ease, box-shadow .12s ease, border-color .12s ease;
+  }
+  a.linkbtn:hover{
+    transform:translateY(-2px);
+    box-shadow:0 8px 18px rgba(38,38,31,0.10);
+    border-color:var(--sage);
+  }
+  a.linkbtn .icon{font-size:19px; width:22px; text-align:center;}
+  a.linkbtn.primary{
+    background:var(--sage-deep);
+    color:var(--paper);
+    border-color:var(--sage-deep);
+  }
+  a.linkbtn.primary:hover{background:var(--sage);}
+
+  .disclosure{
+    font-family:'Courier New',monospace;
+    font-size:11.5px;
+    color:#8A8368;
+    text-align:center;
+    margin-top:32px;
+    line-height:1.6;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="profile">
+    <div class="avatar">B</div>
+    <div class="eyebrow">Budo Home</div>
+    <h1>Kitchen &amp; home finds for small spaces</h1>
+    <p>Practical picks for apartments and tight kitchens — new items added weekly.</p>
+  </div>
+
+  <div class="links">
+    <a class="linkbtn primary" href="index.html" target="_blank" rel="noopener">
+      <span class="icon">🛍️</span> Shop All Current Picks
+    </a>
+    <a class="linkbtn" href="index.html#kitchen" target="_blank" rel="noopener">
+      <span class="icon">🍳</span> Kitchen Appliances
+    </a>
+    <a class="linkbtn" href="index.html#fridge" target="_blank" rel="noopener">
+      <span class="icon">🧊</span> Fridge &amp; Kitchen Organization
+    </a>
+    <a class="linkbtn" href="index.html#laundry" target="_blank" rel="noopener">
+      <span class="icon">🧺</span> Home &amp; Laundry Organization
+    </a>
+    <a class="linkbtn" href="index.html#mealprep" target="_blank" rel="noopener">
+      <span class="icon">🥗</span> Meal Prep Tools
+    </a>
+    <a class="linkbtn" href="https://www.pinterest.com/Budo/" target="_blank" rel="noopener">
+      <span class="icon">📌</span> Follow on Pinterest
+    </a>
+  </div>
+
+  <p class="disclosure">Budo Home is a participant in the Amazon Services LLC<br>Associates Program. Links on this page may earn a<br>commission on qualifying purchases — at no extra cost to you.</p>
+
+</div>
+</body>
+</html>
